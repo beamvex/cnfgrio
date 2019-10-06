@@ -21,6 +21,7 @@
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.8.0",
-    "bootstrap-css-only": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "svg-url-loader": "3.0.0"
   }
 }
