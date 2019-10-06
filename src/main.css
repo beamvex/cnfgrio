@@ -200,5 +200,26 @@ ul.tree {
 }
 
 div.furniture {
-  display: none;
+  opacity: 0;
+}
+
+.hover-textbox-control {
+  opacity: 0;
+  height: 0px;
+}
+
+.hover-textbox:hover .hover-textbox-control {
+  opacity: 1;
+  height: auto;
+}
+
+.hover-textbox:hover h1 {
+  opacity: 0;
+  height: 0px;
+}
+
+.edit-appendix {
+  background-image: url('svg/ic_create_17px.svg'); 
+  background-repeat: no-repeat;
+  background-position: 5px 10px;
 }
