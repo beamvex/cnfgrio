@@ -223,3 +223,20 @@ div.furniture {
   background-repeat: no-repeat;
   background-position: 5px 10px;
 }
+
+.edit-controls {
+  display: block;
+  padding-left: 20px;
+}
+
+.okbtn {
+  background-image: url('svg/ic_check_24px.svg');
+  width: 27px;
+  height: 27px;
+}
+
+.cancelbtn {
+  background-image: url('svg/ic_cancel_24px.svg');
+  width: 27px;
+  height: 27px;
+}
