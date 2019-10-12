@@ -20,9 +20,15 @@ class PageTitleController {
             this.onok();
 
         }
+        if( key.keyCode == 27 ) {
+
+            this.oncancel();
+
+        }
     }
 
     onfocus() {
+        this.value = this.pagetitletextbox.value;
         this.pagetitletextbox.classList.add('show-border');
         this.pagetitletextbox.classList.remove('innercontrol');
         this.basicaddon2.classList.add('show-it');
@@ -30,12 +36,12 @@ class PageTitleController {
     }
 
     onok() {
-        //this.pagetitle.innerText = this.pagetitletextbox.value;
+        this.value = this.pagetitletextbox.value;
         this.hidecontrols();
     }
 
     oncancel() {
-        //this.pagetitletextbox.value = this.pagetitle.innerText;
+        this.pagetitletextbox.value = this.value;
         this.hidecontrols();
     }
 

@@ -201,6 +201,7 @@ ul.tree {
 
 div.furniture {
   opacity: 0;
+  display: none;
 }
 
 .show-border {
@@ -263,7 +264,7 @@ div.furniture {
 
 .bigtext {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .show-it {
