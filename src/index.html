@@ -59,17 +59,17 @@
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
                 <div
                     class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <div class="hover-textbox col-md-9 ">
-                        <h1 class="h2" id="pagetitle">Dashboard</h1>
-                        <div class="input-group mb-3 hover-textbox-control">
-                            <input type="text" class="form-control" id="pagetitle-textbox"
+                    <div class="hover-textbox col-md-9 " id="pagetitle-container">
+                        <!-- h1 class="h2" id="pagetitle">Dashboard</h1 -->
+                        <div class="input-group mb-3 hover-textbox-control" id="pagetitle-control-container">
+                            <input type="text" class="form-control form-control-lg bigtext innercontrol" id="pagetitle-textbox"
                                 placeholder="Enter section name" value="Dashboard"/>
                             <div class="input-group-append">
                                 <span class="input-group-text edit-appendix" id="basic-addon2"></span>
                             </div>
-                            <div class="dropdown-menu edit-controls" aria-labelledby="dropdownMenuLink">
-                                    <button id="edit-ok" class="okbtn btn btn-success"></button>
-                                    <button id="edit-cancel" class="cancelbtn btn btn-danger"></button>
+                            <div class="dropdown-menu edit-controls" aria-labelledby="dropdownMenuLink" id="pagetitle-control-dropdown">
+                                    <button id="edit-ok" class="okbtn btn btn-outline-success"></button>
+                                    <button id="edit-cancel" class="cancelbtn btn btn-outline-danger"></button>
                                 </div>
                         </div>
                     </div>

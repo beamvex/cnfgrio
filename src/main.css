@@ -203,17 +203,29 @@ div.furniture {
   opacity: 0;
 }
 
-.hover-textbox-control {
+.show-border {
+  border: 1px solid #ced4da;
+}
+
+.hover-textbox-control .innercontrol {
+  border: none;
+}
+
+.hover-textbox:hover .hover-textbox-control .innercontrol {
+  border: 1px solid #ced4da;
+}
+
+.hover-textbox:hover .hover-textbox-control .edit-appendix {
+  opacity: 1;
+}
+
+
+.hover-textbox:hover h1 {
   opacity: 0;
   height: 0px;
 }
 
-.hover-textbox:hover .hover-textbox-control {
-  opacity: 1;
-  height: auto;
-}
-
-.hover-textbox:hover h1 {
+.hide-it {
   opacity: 0;
   height: 0px;
 }
@@ -222,11 +234,19 @@ div.furniture {
   background-image: url('svg/ic_create_17px.svg'); 
   background-repeat: no-repeat;
   background-position: 5px 10px;
+  opacity: 0;
 }
 
-.edit-controls {
+.edit-controls {  
+  padding-left: 10px;
+  width: 78px;
+  min-width: 78px;
+  margin-left: auto;
+  right: 0;
+}
+
+.display-box {
   display: block;
-  padding-left: 20px;
 }
 
 .okbtn {
@@ -240,3 +260,14 @@ div.furniture {
   width: 27px;
   height: 27px;
 }
+
+.bigtext {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.show-it {
+  opacity: 1;
+  height: auto;
+}
+
